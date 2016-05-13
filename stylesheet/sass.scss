@@ -1,0 +1,14 @@
+$color-primary:#000;
+$font-size-primary: 12px;
+
+
+body{
+	background: $color-primary;
+	font-size:$font-size-primary;
+}
+
+.navbar-brand img{
+	width: 2rem;
+	height: auto;
+}
+
