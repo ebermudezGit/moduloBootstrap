@@ -1,9 +1,174 @@
-body {
-  background: #000;
-  font-size: 12px; }
+html, body {
+  font-size: 12px;
+  background: #FFFFFF;
+  color: #5D5656; }
 
+section, span, a, h1, h2, h3, h4, h5 {
+  padding: 0px;
+  margin: 0px; }
+
+hr {
+  border: 0;
+  border-top: dashed #eee;
+  margin: 50px 5% 50px 5%; }
+
+/*Navegador*/
 .navbar-brand img {
-  width: 2rem;
+  width: 12rem;
   height: auto; }
+
+/**** splash *****/
+#splash {
+  color: inherit;
+  background: url("../images/splash.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px; }
+
+#splash h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 1px #222;
+  color: white;
+  margin-top: 60px; }
+
+#splash p {
+  font-size: 2em;
+  text-shadow: 2px 2px 1px #222;
+  color: white;
+  margin-top: 60px;
+  text-align: center; }
+
+/*jumbotron*/
+.remarcar {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.remarcar2 {
+  background-color: #7ecaad;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: inherit; }
+
+.remarcar3 {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: inherit; }
+
+.remarcar2 h2 {
+  text-shadow: 2px 2px 1px #222;
+  font-size: 2.5em;
+  color: white;
+  padding: 0px 40px 0px 40px;
+  margin: 80px 0 80px 0; }
+
+.remarcar p {
+  text-shadow: 2px 2px 1px #222;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 80px;
+  padding: 0px 60px 0px 60px; }
+
+.remarcar h3 {
+  font-size: 1em;
+  color: inherit;
+  background-color: #FFFFFF; }
+
+/*OctoCat*/
+#octogato a {
+  z-index: 999999;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 166px;
+  margin: 0px;
+  padding: 0px;
+  -webkit-transition: 6s ease-in-out;
+  transition: 6s ease-in-out; }
+
+#octogato a:hover {
+  width: 100px;
+  margin-left: 66px;
+  /*-webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);*/
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+#octogato img {
+  width: 260px; }
+
+/*Validar*/
+#inscripcion.remarcar {
+  text-align: left; }
+
+#inscripcion p {
+  font-size: 1em;
+  margin-top: 20px; }
+
+#inscripcion h3 {
+  font-size: 1.5em;
+  margin-top: 20px; }
+
+#inscripcion {
+  padding-top: 50px; }
+
+#asech {
+  width: 180px; }
+
+#microsoft {
+  width: 70px; }
+
+#latam {
+  width: 70px; }
+
+#corfo {
+  width: 110px; }
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px; }
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.list-inline > li > a > img {
+  width: 50px; }
+
+.fusiontexto {
+  position: absolute; }
+
+img.fusiontexto {
+  width: 100px; }
+
+p.fusiontexto {
+  margin: 50px 5% 50px 5%; }
+
+/********************/
+/*Medias*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) {
+
+}
+*/
 
 /*# sourceMappingURL=main_sass.css.map */
